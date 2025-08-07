@@ -1,0 +1,83 @@
+
+# Arquivos de ambiente (IMPORTANTE!)
+.env
+.env.local
+.env.production
+.env.staging
+.env.test
+
+# Arquivos de log
+*.log
+logs/
+sonar-sync.log
+cron-sync.log
+cron-executions.log
+sync-*.log
+
+# Arquivos de cache e temporários
+*.csv
+*-cache.csv
+sonar-data-cache.csv
+temp/
+tmp/
+
+# Arquivos de backup
+*backup*
+crontab-backup-*
+*.bak
+
+# Controle de sincronização (contém timestamps)
+.last-sync.json
+.sync-*
+
+# Scripts gerados automaticamente pelo setup
+run-sync-cron.sh
+
+# Node.js específicos
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.yarn-integrity
+
+# Arquivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos de processo
+*.pid
+*.seed
+*.pid.lock
+
+# Diretórios de saída
+dist/
+build/
+out/
+
+# Arquivos de teste que podem conter dados sensíveis
+test-data/
+sample-data.csv
+
+# Certificados e chaves (se houver)
+*.pem
+*.key
+*.cert
+*.crt
+
+# Arquivos de configuração local específicos
+config.local.json
+settings.local.json
